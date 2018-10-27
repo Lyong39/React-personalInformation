@@ -7,7 +7,7 @@
 
 ``` bash
 git clone https://github.com/Lyong39/React-personalInformation.git
-cd  reactjianli
+cd  React-personalInformation
 npm install
 npm start
 ```
