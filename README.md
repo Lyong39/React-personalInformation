@@ -6,8 +6,8 @@
 ## 使用方法
 
 ``` bash
-git clone https://github.com/Lyong39/reactjianli.git
-cd reactjianli
+git clone https://github.com/Lyong39/React-personalInformation.git
+cd  reactjianli
 npm install
 npm start
 ```
