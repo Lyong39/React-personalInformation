@@ -1,8 +1,7 @@
-# react版动态简历
+# react版动态小简历
 
 > 
 
-[预览](http://songhao888.cn/jianli/)
 
 ## 使用方法
 
@@ -19,5 +18,3 @@ npm run build
 发布html文件和build即可
 ```
 
-## 重要说明：
- 玩王者荣耀的小哥哥小姐姐约起来啊~
