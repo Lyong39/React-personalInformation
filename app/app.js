@@ -14,53 +14,48 @@ class ReactClass extends React.Component {
 		};
 		this.interval = 40;
 		this.resumeEditorContent = `
-# 杀猪老板的简历
+# 个人小简历
 
 ## 个人信息
 
-	1. 技能：
+		姓　  名： 刘勇							性   别 ： 男
 	
-		kotlin,springBoot,springCloud,springDataJPA,mysql,html，css，javaScript,
+		籍    贯： 江西赣州						修炼年限： 2年
 		
-		solidity，nodejs，vue，react以上都是某大哥教过的技术，一顿学习之后我只记得main方法..
+		目标职能：JAVA，区块链开发
 		
-	2. 生活：
+		目标地点：杭州
+
+	1. 玩具
 	
-		乒乓球,篮球,游泳,漂移板,跑步,健身，电影,美食，以及各种舒适安逸的生活，唉! 到最后变乞丐了..
+		SpringBoot，SpringCloud，SpringMVC，Spring，MyBatis，mysql，
 		
-		游戏玩家 喜欢各种游戏，手游，网游，单机游，是兄弟就来玩贪玩蓝月~
+		html，css，solidity，javaScript，nodejs，vue，react
+		
+	2. 生活
+	
+		乒乓球,篮球,游泳,漂移板,跑步,健身，电影,美食，以及各种舒适的生活，唉! 到最后变乞丐了..
+		
+		
+		游戏玩家 喜欢过各种游戏，手游，网游，单机游，是兄弟就来砍我！我在贪玩蓝月等你~
+		
+		
+		-----等一下!!!
+		
+		----'我'----不信！
+		
+		程序员还有时间玩游戏？我信你个鬼你这老头坏的很，敢发誓粪池蝶泳么？
+		嗯？你咋老拆我台昵...
 
+>大家喜欢这个效果吗，地址在这你懂得 ：https://github.com/Lyong39/React-personalInformation
 
-    **------------------------------------别走开，广告之后更精彩！**
-
-
-## 这是广告
-
-**慧江电竞金枪**:
-              一个打王者荣耀讨生活的男人      QQ:654074610 
-
-
-**个人生涯**: 虎牙直播签约主播
-
-             国服最强诸葛亮
-             
-             S3赛季开始入手王者荣耀，连续十赛季荣耀王者,赛季最高77星
-             
-             进全区前五毫无压力，侵占野区快准狠具有野区霸主的称号。
-
-			 现职业代练，没有什么单接不了！钱到位玻璃都干碎！
-
-
-#-------------------------代练加Q质量高效价格优惠，做打手几十载赛季妥妥的，表哥表姐表弟表妹qq加起来~#
-#----------------------注意!!! 以上不是吹水,真实有效 请各位宝宝加打手QQ直接搞--------------------------#
-#----------------------打手若忙也可加我QQ:563939142;一夜变王者,我用双手成就你的梦想！------------------#
-> 装逼吹水卖萌无所不能，如果你喜欢这个效果，各位老板送个飞机吧 实在不行办张卡也行啊  嘿嘿额...  `;
+> 告诉你一件事，到这里并没有结束，继续继续，嘿嘿额...  `;
 
 		
 		this.styleEditorContent = [`/*
-* 大家好, 我是杀猪老板板板板板板板板板板板板板板板板板板板板板板板板板板板板板板板板板板板板板板板板板板的字幕员解说员...
+* 大家好,
 *
-* 这是在网上搬下来用react搞得个人动态简历，没有搞服务器面试官是看不了了 老衲只好拿来对付第三次演讲 如果还能抽到本老板的话。。
+* 这是react版的个人动态简历，挺好玩的
 *
 * 希望大家能够喜欢 :)
 */
@@ -74,7 +69,7 @@ transition: all .3s;
 html {
 color: rgb(222,222,222); background: #425261; 
 }
-/*文字直接显示在页面上，没有任何装饰，装修一下，所以我们来给文字加点装饰吧~~ */
+/*文字直接显示在页面上，没有任何装饰，所以我们来给文字加点装饰吧~~ */
 .styleEditor {
   white-space: pre-wrap;
   pisition: fixed; left: 0; top: 0;
@@ -85,13 +80,19 @@ color: rgb(222,222,222); background: #425261;
   overflow: auto;
   width: 45vw; height: 90vh;
 }
-/* 不行！我作为一个给区块链的程序员的杀猪老板干活的字幕员解说员，怎么也得镀个金什么的，让你们都爱上我~~ */
+/* 再打扮一下，看好了我会发光哦~~ */
 .token.comment{ color: #FAFF72; font-style: italic; }
 .token.selector{ color: #E86E75; }
 .token.property{ color: #F78C6C; }
 .token.punctuation{ color: #88DCFE; }
 .token.function{ color: #82AAFF; }
-/* 为了更加地酷炫一点，再加一点杀猪式 3D 效果！ */
+/* 跳支舞吧，苏喂苏喂苏喂~ */
+.token.comment{
+	font-style: normal; font-style: italic; 
+	font-style: normal; font-style: italic;
+	font-style: normal;
+}
+/* 为了更加地酷炫一点，再加一点 3D 效果！ */
 html{
 -webkit-perspective: 1000px;
 perspective: 1000px;
@@ -128,7 +129,7 @@ overflow: auto;
 */
 `,
 `
-/* 再对 本老板的简历 加点样式 */
+/* 再对 我的简历 加点样式 */
 .resumeEditor{
 padding: 2em;
 }
