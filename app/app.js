@@ -53,7 +53,7 @@ class ReactClass extends React.Component {
 
 		
 		this.styleEditorContent = [`/*
-* 大家好,
+* 大家好, 我叫刘勇
 *
 * 这是react版的个人动态简历，挺好玩的
 *
