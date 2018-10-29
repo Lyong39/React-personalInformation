@@ -2,7 +2,7 @@ var path = require("path");
 var webpack = require('webpack');
 var ExtractTextPlugin = require('extract-text-webpack-plugin'); //css单独打包
 var HtmlWebpackPlugin = require('html-webpack-plugin');
-var openBrowserWebpackPlugin = require('open-browser-webpack-plugin');
+var OpenBrowserPlugin = require('open-browser-webpack-plugin');
 module.exports = {
 		devServer:{
             disableHostCheck: true,
@@ -46,11 +46,13 @@ module.exports = {
   // 使用externals可以将react分离，然后用<script>单独将react引入
   externals: [],
 	plugins:[
+        new OpenBrowserPlugin({ url: 'http://localhost:8800' }),
 		new webpack.HotModuleReplacementPlugin(),
         new HtmlWebpackPlugin({
             title:'react动态简历',
             template:'./index.html',
             filename:'index.html'
         }),
+
     ],
 }
